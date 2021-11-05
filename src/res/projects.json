@@ -1,0 +1,310 @@
+[
+    {
+        "id":43,
+        "title":"React Book Store",
+        "desc":"An online book library which fetches book data from an API & allows users to keep records of the books they have read, liked & disliked. They can also search for the books, build using React.",
+        "img":"/Proj/proj40.png",
+        "type":"react"
+    },
+    {
+        "id":42,
+        "title":"React Quiz App",
+        "desc":"A Quiz web application build using React.",
+        "img":"/Proj/proj39.png",
+        "type":"react"
+    },
+    {
+        "id":41,
+        "title":"React Pro-Trips",
+        "desc":"A custom trip planning app which keeps track of all the trips, allows you to add trips and filter through types of trips build using React.",
+        "img":"/Proj/proj38.png",
+        "type":"react"
+    },
+    {
+        "id":40,
+        "title":"React Pro-Nutrition",
+        "desc":"A nutrition app which tracks the calories of everything you eat build using React.",
+        "img":"/Proj/proj37.png",
+        "type":"react"
+    },
+    {
+        "id":39,
+        "title":"React Notepad",
+        "desc":"A Custom notepad using React.",
+        "img":"/Proj/proj36.png",
+        "type":"react"
+    },
+    {
+        "id":38,
+        "title":"Smart Watch",
+        "desc":"A Smart Watch which shows the current time, messages, media player to play songs and also a stopwatch.",
+        "img":"/Proj/proj35.png",
+        "type":"vanilla"
+    },
+    {
+        "id":37,
+        "title":"Movie Mania",
+        "desc":"A movie web app which displays the current playing, popular and the upcoming movies of 5 different languages built using TMDB api.",
+        "img":"/Proj/proj34.png",
+        "type":"vanilla"
+    },
+    {
+        "id":36,
+        "title":"Live News",
+        "desc":"Displays the current live news of India & US using news api.",
+        "img":"/Proj/proj33.png",
+        "type":"vanilla"
+    },
+    {
+        "id":35,
+        "title":"Weather Forcast",
+        "desc":"Displays the current weather using OpenWeather api.",
+        "img":"/Proj/proj32.png",
+        "type":"vanilla"
+    },
+    {
+        "id":34,
+        "title":"Contact Book",
+        "desc":"Retrieve all the contacts from the api using Promise.",
+        "img":"/Proj/proj31.png",
+        "type":"vanilla"
+    },
+    {
+        "id":33,
+        "title":"Online Expense Tracker",
+        "desc":"Keep track of your expenses online with LocalStorage.",
+        "img":"/Proj/proj30.png",
+        "type":"vanilla"
+    },
+    {
+        "id":32,
+        "title":"Online Burger Maker",
+        "desc":"Decorate and Design the burger of your choice.",
+        "img":"/Proj/proj29.png",
+        "type":"vanilla"
+    },
+    {
+        "id":31,
+        "title":"Snakes and Ladders Game",
+        "desc":"Snake and Ladders Game made with pure JS and no HTML.",
+        "img":"/Proj/proj28.png",
+        "type":"vanilla"
+    },
+    {
+        "id":30,
+        "title":"Mini Monopoly Game",
+        "desc":"A minified version of the Monopoly Game.",
+        "img":"/Proj/proj27.png",
+        "type":"vanilla"
+    },
+    {
+        "id":29,
+        "title":"Cake World",
+        "desc":"A Simple Mini Cake Builder.",
+        "img":"/Proj/proj26.png",
+        "type":"vanilla"
+    },
+    {
+        "id":28,
+        "title":"CricPro ScoreBoard",
+        "desc":"A Simple Pro Cricket ScoreBoard using HTML, CSS and Javascript.",
+        "img":"/Proj/proj25.png",
+        "type":"vanilla"
+    },
+    {
+        "id":27,
+        "title":"UEFA Footbal Penalty Game",
+        "desc":"A UEFA football penalty game with 4 teams in an Elimination styled match.",
+        "img":"/Proj/proj24.png",
+        "type":"vanilla"
+    },
+    {
+        "id":26,
+        "title":"IPL Super Over Game",
+        "desc":"A small game based on IPL Super Over.",
+        "img":"/Proj/proj23.png",
+        "type":"vanilla"
+    },
+    {
+        "id":25,
+        "title":"PlayStore Installing Animation",
+        "desc":"Replication of the Google Play Store Installing Animation.",
+        "img":"/Proj/proj22.png",
+        "type":"vanilla"
+    },
+    {
+        "id":24,
+        "title":"Live Workplace",
+        "desc":"A virtual workplace in which the analog clock shows the current time, calendar shows the current day-month-year and mobile whose screen shows the current time in digital format and the battery shows the laptop battery.",
+        "img":"/Proj/proj21.png",
+        "type":"vanilla"
+    },
+    {
+        "id":23,
+        "title":"The Unknown",
+        "desc":"A Third Person Shooter Game which is inspired by WorldWarZ. This is a complete game which consists of start menu, cutscenes,sounds,UI,In-Game Tutorial etc.",
+        "img":"/Proj/proj20.png",
+        "type":"unity"
+    },
+    {
+        "id":22,
+        "title":"Bullet Time",
+        "desc":"A First-person Shooter Game with a unique mechanism in which when the player stops the time stops, bringing a unique experience to the user.",
+        "img":"/Proj/proj19.png",
+        "type":"unity"
+    },
+    {
+        "id":21,
+        "title":"Cypher in Wonderland",
+        "desc":"A short animated video made in Unity.",
+        "img":"/Proj/proj18.png",
+        "type":"unity"
+    },
+    {
+        "id":20,
+        "title":"Code CS",
+        "desc":"A First Person Shooter game with cool area animations,enemy death animation and gun animations.",
+        "img":"/Proj/proj17.png",
+        "type":"unity"
+    },
+    {
+        "id":19,
+        "title":"Maeda's Run",
+        "desc":"A 3D Endless Runner Game with HDR graphics,damage collision and animation mechanism.",
+        "img":"/Proj/proj16.png",
+        "type":"unity"
+    },
+    {
+        "id":18,
+        "title":"Cypher's Adventure",
+        "desc":"A Platformer Game in which we have to defeat the Evil robot and his army of zombies and evil generals.",
+        "img":"/Proj/proj15.png",
+        "type":"unity"
+    },
+    {
+        "id":17,
+        "title":"Avatar Creator",
+        "desc":"A custom avatar generator in which you can choose the hair, eyes, mouth, beard, eyebrows, facecut and so on.",
+        "img":"/Proj/proj14.png",
+        "type":"vanilla"
+    },
+    {
+        "id":16,
+        "title":"Image Filter",
+        "desc":"Allows user to upload image and change its brightness, blur, contrast, grayscale, rotate its hue, invert it, change its opacity and so on. It also has 3 inbuild filters which can be applied.",
+        "img":"/Proj/proj13.png",
+        "type":"vanilla"
+    },
+    {
+        "id":15,
+        "title":"Text Analyzer",
+        "desc":"Analyzes any text and displays the total no vowels, consonants, characters, words, unique words and lines.",
+        "img":"/Proj/proj12.png",
+        "type":"vanilla"
+    },
+    {
+        "id":14,
+        "title":"Tic Tac Toe Game",
+        "desc":"A simulation of Tic Tac Toe Game.",
+        "img":"/Proj/proj11.png",
+        "type":"vanilla"
+    },
+    {
+        "id":13,
+        "title":"Random Color Pallete",
+        "desc":"Generates 100 unique random colors with the hex code.",
+        "img":"/Proj/proj10.png",
+        "type":"vanilla"
+    },
+    {
+        "id":12,
+        "title":"Random Password Generator",
+        "desc":"Strong Password Generator to create secure passwords that are impossible to crack on your device without sending them across the Internet.",
+        "img":"/Proj/proj9.png",
+        "type":"vanilla"
+    },
+    {
+        "id":11,
+        "title":"Instagram Clone",
+        "desc":"Instagram clone is a social media app software solution to build an app similar to Instagram. It gives an idea to the entrepreneurs as to the nature of the application they will be getting.",
+        "img":"/Proj/instaApp.png",
+        "type":"android"
+    },
+    {
+        "id":10,
+        "title":"Hex Converter App",
+        "desc":"An App to convert Red,Green and Blue values to their corresponding Hexadecimal Number.",
+        "img":"/Proj/hexApp.jpg",
+        "type":"android"
+    },
+    {
+        "id":9,
+        "title":"Dhaan",
+        "desc":"Dhaan is a NGO app through which the user can donate anything from anywher to any NGO in Goa.",
+        "img":"/Proj/dhaanApp.png",
+        "type":"vanilla"
+    },
+    {
+        "id":8,
+        "title":"My Portfolio",
+        "desc":"The most dynamic website that contains all my personal and professional details.",
+        "img":"/Proj/myWeb.png",
+        "type":"vanilla"
+    },
+    {
+        "id":7,
+        "title":"Crocs and Cops",
+        "desc":"Focused on providing day to day news updates regarding Policing, Recruitment Drives, etc in the state of Goa.",
+        "img":"/Proj/cocWeb.png",
+        "type":"vanilla"
+    },
+    {
+        "id":6,
+        "title":"Modern Calculator",
+        "desc":"Exact replica of the day-to-day Modern Calculator, with all functionalities.",
+        "img":"/Proj/proj6.png",
+        "type":"vanilla"
+    },
+    {
+        "id":5,
+        "title":"Tom and Jerry Game",
+        "desc":"A small game on Tom and Jerry, where you're play the character of Tom and have to catch Jerry.",
+        "img":"/Proj/proj7.png",
+        "type":"vanilla"
+    },
+    {
+        "id":4,
+        "title":"Computer Speaks",
+        "desc":"A simulation of text-to-speech.",
+        "img":"/Proj/proj2.png",
+        "type":"vanilla"
+    },
+    {
+        "id":3,
+        "title":"Real-Time Face Detection",
+        "desc":"Detects the face and the mood using the web cam.",
+        "img":"/Proj/proj3.png",
+        "type":"vanilla"
+    },
+    {
+        "id":2,
+        "title":"Rock Paper Scissor Game",
+        "desc":"A simulation of Rock paper scissor Game.",
+        "img":"/Proj/proj4.jpg",
+        "type":"vanilla"
+    },
+    {
+        "id":1,
+        "title":"SLING SHOT GAME",
+        "desc":"A simulation of the famous Angry Birds Game.",
+        "img":"/Proj/proj1.png",
+        "type":"vanilla"
+    },
+    {
+        "id":0,
+        "title":"DESIGNING IMAGINATION",
+        "desc":"A fully animated art gallery with login,registration and auto update gallery using PHP & MySql as the backend.",
+        "img":"/Proj/proj8.png",
+        "type":"vanilla"
+    }
+]
