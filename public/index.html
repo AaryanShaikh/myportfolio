@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Aaryan's Portfolio</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <div id="mouse-circle"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./index.umd.js"></script>
+  <script src="./three.min.js"></script>
+  <script src="./gsap.min.js"></script>
+  <script src="./hover.js"></script>
+  <script>
+    function distort(event) {
+      var myAnimation = new hoverEffect({
+        parent: document.querySelector('.center'),
+        intensity: 0.3,
+        image1: 'https://github.com/AaryanShaikh/badportfolio/blob/main/public/main2.png?raw=true',
+        image2: 'https://github.com/AaryanShaikh/badportfolio/blob/main/public/main.png?raw=true',
+        displacementImage: 'https://github.com/AaryanShaikh/badportfolio/blob/main/public/disp.png?raw=true'
+      });
+    }
+
+    function typeit(event) {
+      new TypeIt("#element", {
+          speed: 100,
+          startDelay: 900
+        })
+        .type("hello there", {
+          delay: 200
+        })
+        .move(-6)
+        .delete(3)
+        .type("y")
+        .move(-2)
+        .delete(1)
+        .type("H")
+        .move(4)
+        .delete(1)
+        .type("T")
+        .move(4)
+        .type("!!")
+        .break({
+          delay: 500
+        })
+        .type("<span class='intro-name'>i am </span>")
+        .move(-4)
+        .delete(1)
+        .type("I")
+        .move(4)
+        .type("<span class='intro-name'>Cypher</span>")
+        .pause(500)
+        .move(-1)
+        .delete(5)
+        .type("<span class='intro-name'>a</span>")
+        .move(1)
+        .type("<span class='intro-name'>yan shaikh</span>")
+        .move(-5)
+        .delete(1)
+        .type("<span class='intro-name'>S</span>")
+        .move(-7)
+        .type("<span class='intro-name'>A</span>")
+        .move(null, {
+          to: "END"
+        })
+        .delete(1)
+        .break({
+          delay: 500
+        })
+        .type("frontend+React")
+        .pause(500)
+        .move(-13)
+        .delete(1)
+        .type("F")
+        .move(4)
+        .type(" ")
+        .move(1)
+        .delete(1)
+        .type("E")
+        .pause(900)
+        .move(3)
+        .delete(1)
+        .type("&")
+        .pause(900)
+        .delete(1)
+        .type("<span> / </span>")
+        .move(null, {
+          to: "END"
+        })
+        .type(" Developer")
+        .pause(1000)
+        .type(".")
+        .go();
+    }
+
+    function mouseFollow(event) {
+      if (window.matchMedia("(min-width: 768px)").matches) {
+        let mousePosX = 0,
+          mousePosY = 0,
+          mouseCircle = document.getElementById("mouse-circle");
+
+        document.onmousemove = (e) => {
+          mousePosX = e.pageX;
+          mousePosY = e.pageY;
+        };
+
+        let delay = 1,
+          revisedMousePosX = 0,
+          revisedMousePosY = 0;
+
+        function delayMouseFollow() {
+          requestAnimationFrame(delayMouseFollow);
+
+          revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
+          revisedMousePosY += (mousePosY - revisedMousePosY) / delay;
+
+          mouseCircle.style.top = revisedMousePosY + "px";
+          mouseCircle.style.left = revisedMousePosX + "px";
+        }
+        delayMouseFollow();
+      }
+    }
+
+    function textMorph(event) {
+      const elts = {
+        text1: document.getElementById("text1"),
+        text2: document.getElementById("text2")
+      };
+
+      const texts = [
+        "Html",
+        "Css",
+        "JavaScript",
+        "React",
+        "Photoshop"
+      ];
+
+      const morphTime = 1;
+      const cooldownTime = 0.25;
+
+      let textIndex = texts.length - 1;
+      let time = new Date();
+      let morph = 0;
+      let cooldown = cooldownTime;
+
+      elts.text1.textContent = texts[textIndex % texts.length];
+      elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+
+      function doMorph() {
+        morph -= cooldown;
+        cooldown = 0;
+
+        let fraction = morph / morphTime;
+
+        if (fraction > 1) {
+          cooldown = cooldownTime;
+          fraction = 1;
+        }
+
+        setMorph(fraction);
+      }
+
+      function setMorph(fraction) {
+        elts.text2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+        elts.text2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+
+        fraction = 1 - fraction;
+        elts.text1.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+        elts.text1.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+
+        elts.text1.textContent = texts[textIndex % texts.length];
+        elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+      }
+
+      function doCooldown() {
+        morph = 0;
+
+        elts.text2.style.filter = "";
+        elts.text2.style.opacity = "100%";
+
+        elts.text1.style.filter = "";
+        elts.text1.style.opacity = "0%";
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        let newTime = new Date();
+        let shouldIncrementIndex = cooldown > 0;
+        let dt = (newTime - time) / 1000;
+        time = newTime;
+
+        cooldown -= dt;
+
+        if (cooldown <= 0) {
+          if (shouldIncrementIndex) {
+            textIndex++;
+          }
+
+          doMorph();
+        } else {
+          doCooldown();
+        }
+      }
+
+      animate();
+    }
+  </script>
+</body>
+
+</html>
