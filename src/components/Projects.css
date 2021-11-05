@@ -1,0 +1,125 @@
+.projects {
+    height: 90vh;
+    background: #122333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.projects::-webkit-scrollbar {
+    background: #182b3c;
+    width: 15px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.projects::-webkit-scrollbar-thumb {
+    background: #2eac68;
+    border-radius: 25px;
+    box-shadow: inset 0 0 5px 2px #185333;
+}
+
+.projects>h1 {
+    font-family: 'Sacramento', cursive;
+    color: aliceblue;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.projects h1 span {
+    color: #2eac68;
+    font-weight: 600;
+}
+
+.projects .btns {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 5vh 0;
+}
+
+.projects .btns button {
+    width: 110px;
+    font-size: 17px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #273a4b;
+    color: aliceblue;
+    box-shadow: 0 0 10px 2px #0e1822;
+    height: 6vh;
+    transition: .3s ease;
+}
+
+.projects .btns button.active {
+    box-shadow: inset 0 0 10px 2px #0e1822;
+    color: #2eac68;
+}
+
+.projects .projects-cont {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects .projects-cont .project {
+    height: 300px;
+    width: 300px;
+    border: 21px solid #182b3c;
+    border-radius: 11px;
+    overflow: hidden;
+    word-wrap: break-word;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2vh 2vh 0 0;
+    box-shadow: 0 0 18px 7px #111e2a;
+}
+
+.projects .projects-cont .project:hover::after {
+    backdrop-filter: blur(10px);
+    background: #273a4b;
+}
+
+.projects .projects-cont .project::after {
+    content: '';
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    transition: .5s ease;
+}
+
+.projects .projects-cont .project :is(h1, p) {
+    opacity: 0;
+}
+
+.projects .projects-cont .project:hover :is(h1, p) {
+    opacity: 1;
+}
+
+.projects .projects-cont .project :is(img, h1, p) {
+    position: absolute;
+    transition: .3s ease;
+}
+
+.projects .projects-cont .project :is(h1, p) {
+    z-index: 2;
+    width: 284px;
+    text-align: center;
+
+}
+
+.projects .projects-cont .project p {
+    bottom: 0;
+    font-family: 'Quicksand';
+    color: aliceblue;
+}
+
+.projects .projects-cont .project h1 {
+    font-family: 'Play';
+    color: #2eac68;
+}

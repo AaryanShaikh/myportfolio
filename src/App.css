@@ -1,39 +1,218 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Quicksand:wght@500&display=swap');
+
+body {
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
+/* Header */
+
+.header {
+  background: #122333;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  ;
+}
+
+/* Header-Logo */
+
+.header .logo img {
+  height: 7vh;
+  border: 3px solid aliceblue;
+  border-radius: 50%;
+  transition: .3s ease;
+}
+
+/* Header-Logo closed */
+/* Header-Nav */
+
+.header .nav {
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+}
+
+.header .nav a {
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.header .nav p {
+  color: #eef6fd;
+  cursor: pointer;
+  font-family: 'Play', sans-serif;
+  font-size: 2.7vh;
+  position: relative;
+}
+
+.header .nav.hide a {
+  transform: scale(0);
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header .nav p:hover span {
+  color: #2eac68;
+  text-shadow: 0px 0px 3px #5ce09a,
+    0px 0px 2px #86e9b4;
+}
+
+
+.header .nav a:hover p::before {
+  content: '';
+  height: 3px;
+  width: 50%;
+  background: #2eac68;
+  position: absolute;
+  bottom: -0.6vh;
+  left: 32%;
+  border-radius: 50px;
+}
+
+.header .nav a p::before {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #2eac68;
+  position: absolute;
+  bottom: -0.6vh;
+  left: 0%;
+  border-radius: 50px;
+  transition: .5s ease;
+}
+
+.header .nav p span {
+  transition: .3s ease;
+  font-size: 3vh;
+}
+
+/* Header-Nav closed */
+/* Header-Ham */
+
+.header ul {
+  position: relative;
+  width: 2vw;
+  height: 8vh;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header ul li {
+  list-style: none;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 70%;
+  height: 6px;
+  background: #eef6fd;
+  transition: 1s;
+  border-radius: 3px;
+}
+
+.header ul li:nth-of-type(1) {
+  top: 30%;
+  left: 15%;
+  transition-delay: 1s;
+  opacity: 1;
+}
+
+.header ul li:nth-of-type(2) {
+  top: 50%;
+  right: 15%;
+  transition-delay: 0s;
+  width: 50%;
+  background: #2eac68;
+}
+
+.header ul li:nth-of-type(3) {
+  top: 70%;
+  right: 15%;
+  transition-delay: 1s;
+  opacity: 1;
+}
+
+.header ul.active li:nth-of-type(1) {
+  left: 100%;
+  transition-delay: 0s;
+  opacity: 0;
+}
+
+.header ul.active li:nth-of-type(2) {
+  transform: translateY(-50%) rotate(405deg);
+  transition-delay: .5s;
+  width: 70%;
+}
+
+.header ul.active li:nth-of-type(3) {
+  right: 100%;
+  transition-delay: 0s;
+  opacity: 0;
+}
+
+.header ul li:nth-of-type(2)::before {
+  content: '';
+  position: absolute;
+  top: -150px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2eac68;
+  transform: rotate(90deg);
+  transition: 1s;
+  transition-delay: .5s;
+  border-radius: 3px;
+}
+
+.header ul.active li:nth-of-type(2)::before {
+  top: 0;
+  transition-delay: 1s;
+}
+
+.home {
+  height: 90vh;
+  background: #122333;
+}
+
+/* Header-Ham closed */
+#mouse-circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: -20px 0px 0px -20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  pointer-events: none !important;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0);
+  opacity: 1;
+  transition: .1s linear;
+}
+
+.heart-beat {
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+
+  0%,
+  100% {
+    width: 30px;
+    height: 30px;
+    margin: -20px 0px 0px -20px;
+  }
+
+  50% {
+    width: 60px;
+    height: 60px;
+    margin: -30px 0px 0px -30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* loading */
+.load {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  background: #18181f;
 }

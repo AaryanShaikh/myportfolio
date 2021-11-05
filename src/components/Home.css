@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.home {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .center {
+    height: 90%;
+    width: 31.5vw;
+}
+
+.home .left {
+    position: relative;
+    pointer-events: none;
+    left: 0;
+}
+
+.home .left p {
+    color: aliceblue;
+    font-size: 2.2em;
+    word-break: break-word;
+    width: 36vw;
+    height: 29vh;
+    font-family: 'Sacramento', cursive;
+    position: relative;
+    left: 6vh;
+    text-align: center;
+}
+
+.home .left p span {
+    font-size: 1em;
+    color: #2eac68;
+    font-weight: bold;
+}
+
+.home .left p .intro-name {
+    font-size: 2em;
+}
+
+.home .right {
+    position: relative;
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    right: 4vh;
+    justify-content: space-evenly;
+}
+
+.home .right svg {
+    font-size: 4vh;
+    color: #2eac68;
+    transition: .3s ease;
+}
+
+.home .right svg:hover {
+    filter: drop-shadow(0px 0px 2px #2eac68);
+    transform: scale(1.5);
+}

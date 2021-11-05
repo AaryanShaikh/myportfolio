@@ -1,0 +1,85 @@
+.about {
+    height: 90vh;
+    background: #122333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container {
+    width: 87%;
+    height: 80%;
+    background: #182b3c;
+    box-shadow: 0 0 20px 6px #111d2857;
+    border-radius: 19px;
+    display: flex;
+}
+
+.about .container .left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container .left img {
+    height: 92%;
+}
+
+.about .container .right {
+    width: 60%;
+}
+
+.about .container .right .morph {
+    display: flex;
+    height: 10vh;
+}
+
+.about .container .right p {
+    color: aliceblue;
+    font-family: 'Play', serif;
+    padding: 0 3vh 0 0;
+    font-size: 3vh;
+}
+
+.about .container .right .morph .no-padding {
+    padding: 0 1vh 0 0;
+}
+
+.about .container .right h1 {
+    color: #2eac68;
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+}
+
+/* Text Morph */
+#morph-container {
+    position: relative;
+    filter: url(#threshold) blur(0.6px);
+}
+
+:is(#text1, #text2) {
+    position: absolute;
+    font-size: 5vh;
+    font-weight: 900;
+    padding: 1vh 0 0 0;
+    color: #2eac68;
+}
+
+/* Text Morph close*/
+/* Details */
+.about .container .right .details {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.about .container .right .details p {
+    display: flex;
+    align-items: center;
+}
+
+.about .container .right .details p svg {
+    color: #2eac68;
+}
+
+/* Details close*/

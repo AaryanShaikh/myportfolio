@@ -1,0 +1,139 @@
+.contact {
+    height: 90vh;
+    background: #122333;
+}
+
+.contact .top {
+    text-align: center;
+    font-size: 2em;
+    color: aliceblue;
+    position: relative;
+    top: 3vh;
+}
+
+.contact .top h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+}
+
+.contact .top h1 span {
+    color: #2eac68;
+}
+
+.contact .bottom {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    position: relative;
+    top: 5vh;
+    justify-content: space-evenly;
+}
+
+.contact .bottom .left img {
+    height: 60vh;
+    filter: hue-rotate(331deg);
+}
+
+.contact .bottom .right {
+    height: 84%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #182b3c;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact .bottom .right form .grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 3vh;
+}
+
+.contact .bottom .right form :is(textarea, input[type=text]) {
+    width: 18vw;
+    height: 7vh;
+    background: #21374a;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: inset 0 0 10px 3px #122230;
+    color: aliceblue;
+    padding: 0 2vh;
+    font-size: 1.1em;
+    font-family: 'Quicksand';
+}
+
+.contact .bottom .right form button {
+    width: 10vw;
+    height: 7vh;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: #29445a;
+    box-shadow: 0 0 13px 3px #111d28;
+    color: #2eac68;
+    font-size: 1.4em;
+    font-family: 'Quicksand';
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.contact .bottom .right form button span {
+    color: #89ff00;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.contact .bottom .right form button::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #2eac68;
+    top: 0;
+    left: 0;
+}
+
+.contact .bottom .right form button.sent::before {
+    animation: sendit 5s;
+}
+
+@keyframes sendit {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.contact .bottom .right form textarea {
+    width: 80% !important;
+    box-shadow: inset 0 0 15px 3px #13212e !important;
+    font-size: 1.5em !important;
+    height: 36% !important;
+    resize: none;
+    padding: 2vh 0 0 2vh !important;
+}
+
+.contact .bottom .right form :is(textarea, input[type=text])::placeholder {
+    color: #2eac68;
+}
+
+.contact .bottom .right form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
