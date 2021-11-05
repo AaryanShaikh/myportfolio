@@ -123,3 +123,48 @@
     font-family: 'Play';
     color: #2eac68;
 }
+
+@media only screen and (max-width: 768px) {
+    #mouse-circle {
+        display: none;
+    }
+
+    .projects h1 {
+        font-size: 3em;
+    }
+
+    .projects .btns {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .projects .btns button {
+        margin: 1vh 0;
+    }
+
+    .projects .projects-cont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects .projects-cont .project {
+        position: relative;
+    }
+
+    .projects .projects-cont .project h1 {
+        position: absolute;
+        z-index: 2;
+        text-shadow: 0px 0px 5px #020202f3;
+    }
+
+    .projects .projects-cont .project p {
+        position: absolute;
+        z-index: 2;
+        text-shadow: 0px 0px 5px #020202f3;
+    }
+
+    .projects .projects-cont .project img {
+        filter: blur(10px) grayscale(1);
+    }
+}

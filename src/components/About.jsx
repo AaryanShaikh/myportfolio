@@ -35,7 +35,9 @@ export default class About extends Component {
                     <div className="right">
                         <h1>About Me</h1>
                         <p>I am Aaryan Shaik. I am a simple, creative, enthusiastic and fun-loving person.
-                            I love exploring new libraries and making web more and more interactive!!.</p>
+                            I love exploring new libraries and making web more and more interactive!!.
+                        </p>
+                        <p className="exp">I've Experience in <span>Html</span>, <span>Css</span>, <span>JavaScript</span> & <span>Photoshop</span>.</p>
                         <div className="morph">
                             <p className="no-padding">I've Experience in</p>
                             <div id="morph-container">

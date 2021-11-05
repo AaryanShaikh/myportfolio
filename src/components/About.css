@@ -82,4 +82,49 @@
     color: #2eac68;
 }
 
+.about .container .right .exp {
+    display: none;
+}
+
 /* Details close*/
+@media only screen and (max-width: 768px) {
+    .about .container {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        overflow-y: scroll;
+    }
+
+    .about .container .left {
+        width: 80vw;
+    }
+
+    .about .container .left img {
+        width: 80%;
+    }
+
+    .about .container .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .container .right p {
+        padding: 0 1vh;
+    }
+
+    .about .container .right p span {
+        color: #2eac68;
+    }
+
+    .about .container .right .morph {
+        display: none;
+    }
+
+    .about .container .right .exp {
+        display: block;
+    }
+
+    .about .container .right .details p {
+        font-size: 1.3em;
+    }
+}

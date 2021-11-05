@@ -12,7 +12,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  ;
 }
 
 /* Header-Logo */
@@ -215,4 +214,34 @@ body {
   justify-content: center;
   align-items: center;
   background: #18181f;
+}
+
+/* for mobiles */
+@media only screen and (max-width: 768px) {
+
+  .header .nav {
+    border: solid;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    backdrop-filter: blur(10px) grayscale(1);
+    transition: .3s ease;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .header ul {
+    z-index: 9;
+  }
+
+  .header .nav.hide {
+    height: 0;
+  }
 }
