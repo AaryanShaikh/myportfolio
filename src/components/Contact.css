@@ -139,6 +139,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contact {
+        overflow-y: scroll;
+    }
+
     .contact .top h1 {
         font-size: 1.5em;
     }
