@@ -1,5 +1,12 @@
 [
     {
+        "id":44,
+        "title":"My Portfolio 2.0",
+        "desc":"My Portfolio fully responsive and interactive build using React.",
+        "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj41.png",
+        "type":"react"
+    },
+    {
         "id":43,
         "title":"React Book Store",
         "desc":"An online book library which fetches book data from an API & allows users to keep records of the books they have read, liked & disliked. They can also search for the books, build using React.",
