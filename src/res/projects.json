@@ -1,5 +1,12 @@
 [
     {
+        "id":45,
+        "title":"React Market",
+        "desc":"A market app which fetches fruits & vegetables data from an API & allows the user to select any fruits or vegetable in any quantity & then add it to the cart, which then the user can buy after confirming.",
+        "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj42.png",
+        "type":"react"
+    },
+    {
         "id":44,
         "title":"My Portfolio 2.0",
         "desc":"My Portfolio fully responsive and interactive build using React.",
