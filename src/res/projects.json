@@ -2,330 +2,377 @@
     {
         "id":46,
         "title":"Vanilla Market",
-        "desc":"An online market with login/Reg using localStorage(),Form validation using regex,Toast notifications,Search bar,Filters,Item's data fetched using mock API,Dark/Light theme & a soft neumorphic design.",
+        "desc":"An online market with login/Reg using localStorage(), Form validation using regex, Toast notifications, Search bar, Filters, Item's data fetched using mock API, Dark/Light theme & a soft neumorphic design.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj43.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Aaryan-Market"
     },
     {
         "id":45,
         "title":"React Market",
         "desc":"A market app which fetches fruits & vegetables data from an API & allows the user to select any fruits or vegetable in any quantity & then add it to the cart, which then the user can buy after confirming.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj42.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/mini-project-react-pro-market-shopping-app"
     },
     {
         "id":44,
         "title":"My Portfolio 2.0",
         "desc":"My Portfolio fully responsive and interactive build using React.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj41.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/myportfolio"
     },
     {
         "id":43,
         "title":"React Book Store",
         "desc":"An online book library which fetches book data from an API & allows users to keep records of the books they have read, liked & disliked. They can also search for the books, build using React.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj40.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/react-probooks"
     },
     {
         "id":42,
         "title":"React Quiz App",
         "desc":"A Quiz web application build using React.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj39.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/project-Builder-stage-IV-quiz-complete"
     },
     {
         "id":41,
         "title":"React Pro-Trips",
         "desc":"A custom trip planning app which keeps track of all the trips, allows you to add trips and filter through types of trips build using React.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj38.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/react-protrips"
     },
     {
         "id":40,
         "title":"React Pro-Nutrition",
         "desc":"A nutrition app which tracks the calories of everything you eat build using React.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj37.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/lab-react-pronutrition"
     },
     {
         "id":39,
         "title":"React Notepad",
         "desc":"A Custom notepad using React.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj36.png",
-        "type":"react"
+        "type":"react",
+        "url":"https://github.com/AaryanShaikh/react-notepad"
     },
     {
         "id":38,
         "title":"Smart Watch",
         "desc":"A Smart Watch which shows the current time, messages, media player to play songs and also a stopwatch.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj35.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/project-builder-smartwatch-timer"
     },
     {
         "id":37,
         "title":"Movie Mania",
         "desc":"A movie web app which displays the current playing, popular and the upcoming movies of 5 different languages built using TMDB api.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj34.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/mini-project-builder-movie-mania"
     },
     {
         "id":36,
         "title":"Live News",
         "desc":"Displays the current live news of India & US using news api.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj33.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/lab-js-live-news"
     },
     {
         "id":35,
         "title":"Weather Forcast",
         "desc":"Displays the current weather using OpenWeather api.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj32.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/weather-forecast"
     },
     {
         "id":34,
         "title":"Contact Book",
         "desc":"Retrieve all the contacts from the api using Promise.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj31.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/lab-js-prograd-contacts"
     },
     {
         "id":33,
         "title":"Online Expense Tracker",
         "desc":"Keep track of your expenses online with LocalStorage.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj30.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/lab-js-prograd-expense-tracker"
     },
     {
         "id":32,
         "title":"Online Burger Maker",
         "desc":"Decorate and Design the burger of your choice.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj29.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/lab-brrrgrrr"
     },
     {
         "id":31,
         "title":"Snakes and Ladders Game",
         "desc":"Snake and Ladders Game made with pure JS and no HTML.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj28.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Snakes-and-Ladders-game"
     },
     {
         "id":30,
         "title":"Mini Monopoly Game",
         "desc":"A minified version of the Monopoly Game.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj27.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Mini-Monopoly-Game"
     },
     {
         "id":29,
         "title":"Cake World",
         "desc":"A Simple Mini Cake Builder.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj26.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/mini-project-builder-cake-world"
     },
     {
         "id":28,
         "title":"CricPro ScoreBoard",
         "desc":"A Simple Pro Cricket ScoreBoard using HTML, CSS and Javascript.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj25.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/CricPro-ScoreBoard"
     },
     {
         "id":27,
         "title":"UEFA Footbal Penalty Game",
         "desc":"A UEFA football penalty game with 4 teams in an Elimination styled match.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj24.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/UEFA-Footbal-Penalty-Game"
     },
     {
         "id":26,
         "title":"IPL Super Over Game",
         "desc":"A small game based on IPL Super Over.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj23.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Super-Over"
     },
     {
         "id":25,
         "title":"PlayStore Installing Animation",
         "desc":"Replication of the Google Play Store Installing Animation.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj22.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Play-Store-Installing-animation"
     },
     {
         "id":24,
         "title":"Live Workplace",
         "desc":"A virtual workplace in which the analog clock shows the current time, calendar shows the current day-month-year and mobile whose screen shows the current time in digital format and the battery shows the laptop battery.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj21.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Live-Workplace"
     },
     {
         "id":23,
         "title":"The Unknown",
         "desc":"A Third Person Shooter Game which is inspired by WorldWarZ. This is a complete game which consists of start menu, cutscenes,sounds,UI,In-Game Tutorial etc.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj20.png",
-        "type":"unity"
+        "type":"unity",
+        "url":"https://0code.itch.io/the-unknown"
     },
     {
         "id":22,
         "title":"Bullet Time",
         "desc":"A First-person Shooter Game with a unique mechanism in which when the player stops the time stops, bringing a unique experience to the user.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj19.png",
-        "type":"unity"
+        "type":"unity",
+        "url":"https://drive.google.com/drive/folders/1BD0_eNlIcHKIlXGZbfxLs3UmNcZKlQNs?usp=sharing"
     },
     {
         "id":21,
         "title":"Cypher in Wonderland",
         "desc":"A short animated video made in Unity.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj18.png",
-        "type":"unity"
+        "type":"unity",
+        "url":"https://drive.google.com/drive/folders/1BD0_eNlIcHKIlXGZbfxLs3UmNcZKlQNs?usp=sharing"
     },
     {
         "id":20,
         "title":"Code CS",
         "desc":"A First Person Shooter game with cool area animations,enemy death animation and gun animations.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj17.png",
-        "type":"unity"
+        "type":"unity",
+        "url":"https://drive.google.com/drive/folders/1BD0_eNlIcHKIlXGZbfxLs3UmNcZKlQNs?usp=sharing"
     },
     {
         "id":19,
         "title":"Maeda's Run",
         "desc":"A 3D Endless Runner Game with HDR graphics,damage collision and animation mechanism.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj16.png",
-        "type":"unity"
+        "type":"unity",
+        "url":"https://drive.google.com/drive/folders/1BD0_eNlIcHKIlXGZbfxLs3UmNcZKlQNs?usp=sharing"
     },
     {
         "id":18,
         "title":"Cypher's Adventure",
         "desc":"A Platformer Game in which we have to defeat the Evil robot and his army of zombies and evil generals.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj15.png",
-        "type":"unity"
+        "type":"unity",
+        "url":"https://drive.google.com/drive/folders/1BD0_eNlIcHKIlXGZbfxLs3UmNcZKlQNs?usp=sharing"
     },
     {
         "id":17,
         "title":"Avatar Creator",
         "desc":"A custom avatar generator in which you can choose the hair, eyes, mouth, beard, eyebrows, facecut and so on.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj14.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Avatar-Creator"
     },
     {
         "id":16,
         "title":"Image Filter",
         "desc":"Allows user to upload image and change its brightness, blur, contrast, grayscale, rotate its hue, invert it, change its opacity and so on. It also has 3 inbuild filters which can be applied.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj13.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Image-Filter"
     },
     {
         "id":15,
         "title":"Text Analyzer",
         "desc":"Analyzes any text and displays the total no vowels, consonants, characters, words, unique words and lines.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj12.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Text-Analyzer"
     },
     {
         "id":14,
         "title":"Tic Tac Toe Game",
         "desc":"A simulation of Tic Tac Toe Game.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj11.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Tic-Tac-Toe-Game"
     },
     {
         "id":13,
         "title":"Random Color Pallete",
         "desc":"Generates 100 unique random colors with the hex code.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj10.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Random-Color-Pallete"
     },
     {
         "id":12,
         "title":"Random Password Generator",
         "desc":"Strong Password Generator to create secure passwords that are impossible to crack on your device without sending them across the Internet.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj9.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Random-Password-Generator"
     },
     {
         "id":11,
         "title":"Instagram Clone",
         "desc":"Instagram clone is a social media app software solution to build an app similar to Instagram. It gives an idea to the entrepreneurs as to the nature of the application they will be getting.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/instaApp.png",
-        "type":"android"
+        "type":"android",
+        "url":"https://github.com/AaryanShaikh/Instagram-Clone"
     },
     {
         "id":10,
         "title":"Hex Converter App",
         "desc":"An App to convert Red,Green and Blue values to their corresponding Hexadecimal Number.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/hexApp.jpg",
-        "type":"android"
+        "type":"android",
+        "url":"https://github.com/AaryanShaikh/Hex-Converter"
     },
     {
         "id":9,
         "title":"Dhaan",
         "desc":"Dhaan is a NGO app through which the user can donate anything from anywher to any NGO in Goa.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/dhaanApp.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Dhaan"
     },
     {
         "id":8,
         "title":"My Portfolio",
         "desc":"The most dynamic website that contains all my personal and professional details.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/myWeb.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/JustAnAveragePortfolio"
     },
     {
         "id":7,
         "title":"Crocs and Cops",
         "desc":"Focused on providing day to day news updates regarding Policing, Recruitment Drives, etc in the state of Goa.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/cocWeb.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Virtual-Cops"
     },
     {
         "id":6,
         "title":"Modern Calculator",
         "desc":"Exact replica of the day-to-day Modern Calculator, with all functionalities.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj6.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Modern-Calculator"
     },
     {
         "id":5,
         "title":"Tom and Jerry Game",
         "desc":"A small game on Tom and Jerry, where you're play the character of Tom and have to catch Jerry.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj7.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Tom-and-Jerry-Game"
     },
     {
         "id":4,
         "title":"Computer Speaks",
         "desc":"A simulation of text-to-speech.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj2.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Computer-Speaks"
     },
     {
         "id":3,
         "title":"Real-Time Face Detection",
         "desc":"Detects the face and the mood using the web cam.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj3.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Real-Time-Face-Detection"
     },
     {
         "id":2,
         "title":"Rock Paper Scissor Game",
         "desc":"A simulation of Rock paper scissor Game.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj4.jpg",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Rock-Paper-Scissor-Game"
     },
     {
         "id":1,
         "title":"SLING SHOT GAME",
         "desc":"A simulation of the famous Angry Birds Game.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj1.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Sling-Shot-Game"
     },
     {
         "id":0,
         "title":"DESIGNING IMAGINATION",
         "desc":"A fully animated art gallery with login,registration and auto update gallery using PHP & MySql as the backend.",
         "img":"https://raw.githubusercontent.com/AaryanShaikh/badportfolio/main/public/Proj/proj8.png",
-        "type":"vanilla"
+        "type":"vanilla",
+        "url":"https://github.com/AaryanShaikh/Designing-Imagination"
     }
 ]

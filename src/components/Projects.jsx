@@ -42,7 +42,7 @@ export default class Projects extends Component {
                     {
                         (this.state.type === "all") ?
                             Data.map((proj) => {
-                                return <div className="project" key={proj.id} onMouseOut={this.remCircleBeat} onMouseOver={this.makeCircleBeat}>
+                                return <div className="project" key={proj.id} onMouseOut={this.remCircleBeat} onMouseOver={this.makeCircleBeat} onClick={() => window.open(proj.url, '_blank', 'noopener,noreferrer')}>
                                     <h1>{proj.title}</h1>
                                     <p>{proj.desc}</p>
                                     <img src={proj.img} alt="" />
@@ -53,7 +53,7 @@ export default class Projects extends Component {
                                 return proj.type === this.state.type
                             })
                                 .map((proj) => {
-                                    return <div className="project" key={proj.id} onMouseOut={this.remCircleBeat} onMouseOver={this.makeCircleBeat}>
+                                    return <div className="project" key={proj.id} onMouseOut={this.remCircleBeat} onMouseOver={this.makeCircleBeat} onClick={() => window.open(proj.url, '_blank', 'noopener,noreferrer')}>
                                         <h1>{proj.title}</h1>
                                         <p>{proj.desc}</p>
                                         <img src={proj.img} alt="" />
