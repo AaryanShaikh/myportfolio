@@ -143,6 +143,10 @@
         overflow-y: scroll;
     }
 
+    .contact::-webkit-scrollbar {
+        background: transparent;
+    }
+
     .contact .top h1 {
         font-size: 1.5em;
     }
